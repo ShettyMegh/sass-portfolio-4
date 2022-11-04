@@ -184,6 +184,9 @@
   display: flex;
   flex-direction: column;
 }
+.about footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
 
 body {
   background-color: #272727;
@@ -217,16 +220,16 @@ main {
   height: 100%;
   width: 100%;
 }
-main .social-links {
+main .social-icons {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
 }
-main .social-links a {
+main .social-icons a {
   padding: 0.4rem;
   transition: all 0.5s ease-in-out;
 }
-main .social-links a:hover {
+main .social-icons a:hover {
   color: #ff652f;
 }
 
